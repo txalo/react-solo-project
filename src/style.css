@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Mono:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    background-color: #23252C;
+}
+
+#root{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 71px 142px;
+}
+
+.container{
+    width: 100%;
+    background-color: #1A1B21;
+    border-radius: 10px;
+}
+
+.personalInfo{
+    text-align: center;
+    color: white;
+    font-family: Inter, sans-serif;
+}
+
+.personalInfo--name{
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.personalInfo--profile{
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: normal;
+    color: #F3BF99;
+    margin-top: 10px;
+}
