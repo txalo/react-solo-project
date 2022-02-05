@@ -1,8 +1,13 @@
 import React from "react";
+import Button from "./Button";
+
 
 export default function PersonalInfo() {
     return (
         <header className="personalInfo">
+            <div                
+                className="personalInfo--photo"
+            />
             <h1 className="personalInfo--name">
                     Gonzalo Cabrera
             </h1>
@@ -15,8 +20,8 @@ export default function PersonalInfo() {
                 gonzalo.website.com
             </a>
             <section className="personalInfo--contact">
-                <button>Email</button> 
-                <button>LinkedIn</button> 
+                <Button text="Email" color="white" icon={["fas", "envelope"]} />
+                <Button text="LinkedIn" color="blue" icon={["fab", "linkedin"]} />
             </section>
                 
         </header>

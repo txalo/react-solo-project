@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
 
 *{
     box-sizing: border-box;
@@ -25,19 +26,67 @@ body{
 .personalInfo{
     text-align: center;
     color: white;
-    font-family: Inter, sans-serif;
+    font-family: Inter, sans-serif;   
+    padding-bottom: 35px;; 
+}
+
+.personalInfo--photo{
+    width: 100%;
+    height: 316px;
+    background-image: url(../public/photo_bw.jpeg);    
+    background-size: 100%;
+    border-radius: 10px 10px 0 0;
 }
 
 .personalInfo--name{
     font-size: 25px;
     line-height: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .personalInfo--profile{
-    font-size: 13px;
-    line-height: 15px;
+    font-size: 14px;
+    line-height: 16px;
     font-weight: normal;
     color: #F3BF99;
-    margin-top: 10px;
+    margin: 8px 0 10px;
+}
+
+.personalInfo--link_web{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.personalInfo--contact{
+    display: flex;
+    padding: 0 35px;
+    justify-content: space-between;
+    margin: 20px 0 10px;
+}
+
+.button{
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    
+    width: 115px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.button i{
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.btn-blue{
+    background: #5093E2;
+    color: white;
+}
+
+.btn-white{
+    background: white;    
 }
