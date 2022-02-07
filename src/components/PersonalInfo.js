@@ -4,7 +4,7 @@ import Button from "./Button";
 
 export default function PersonalInfo() {
     return (
-        <header className="personalInfo">
+        <section className="personalInfo">
             <div                
                 className="personalInfo--photo"
             />
@@ -15,15 +15,15 @@ export default function PersonalInfo() {
                 Fullstack Web Developer
             </h2>
             <a  className="personalInfo--link_web"
-                href="#"
+                href="https://github.com/txalo"
                 title="Gonzalo Cabrera Portfolio">
                 gonzalo.website.com
             </a>
-            <section className="personalInfo--contact">
+            <div className="personalInfo--contact">
                 <Button text="Email" color="white" icon={["fas", "envelope"]} />
                 <Button text="LinkedIn" color="blue" icon={["fab", "linkedin"]} />
-            </section>
+            </div>
                 
-        </header>
+        </section>
     )
 };
