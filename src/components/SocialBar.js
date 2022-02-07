@@ -6,7 +6,9 @@ export default function SocialBar(props){
             <ul className="social-bar--icon_list">
                 {Object.entries(props.icons).map(([icon, url]) =>(
                     <li key={icon}>
-                        <a href={url} title={icon.toUpperCase()}><i className={"fab fa-"+icon+"-square"}></i></a>
+                        <a href={url} title={icon.toUpperCase()}>
+                            <i className={"fab fa-"+icon+"-square"}></i>
+                        </a>
                     </li>
                     //console.log(icon + " " + url)
                 ))}
